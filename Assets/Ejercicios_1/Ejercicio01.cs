@@ -10,6 +10,11 @@ namespace Ejercicios_1
         void Start()
         {
             GameObject go1 = new GameObject();
+            //❕
+            //Opción 1:
+            //go1.name = "Ejercicio01";
+            //Opción 2:
+            //GameObject go1 = new GameObject("Ejercicio01");
         }
 
     }

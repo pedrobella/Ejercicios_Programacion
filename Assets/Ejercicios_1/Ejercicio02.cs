@@ -1,21 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Ejercicios_1;
 
-public class Ejercicio02 : MonoBehaviour
+namespace Ejercicios_1
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// Crear un script que genere un GameObject al inicio y trasladarlo a la posicion (111.1, -5, 4.5)
+    /// </summary>
+    public class Ejercicio02 : MonoBehaviour
     {
-        
-        GameObject go1 = new GameObject("nuevo");
-        go1.transform.position = new Vector3(111.1f, -5f, 4.5f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        void Start()
+        {
+            
+            GameObject go1 = new GameObject("nuevo");
+            go1.transform.position = new Vector3(111.1f, -5f, 4.5f);
+        }
     }
 }
